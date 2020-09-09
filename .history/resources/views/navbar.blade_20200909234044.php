@@ -11,8 +11,7 @@
               <a class="btn btn-primary" href="/posts/new">投稿</a>
             </li>
             <li>
-              {{-- この行を編集する --}}
-              <a class="nav-link commonNavIcon profile-icon" href="/users/{{ Auth::user()->id }}"></a>
+              <a class="nav-link commonNavIcon profile-icon" href="/users/{{Auth::user()->id}}"></a>
             </li>
           </ul>
         </div>
