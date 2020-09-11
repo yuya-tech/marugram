@@ -17,12 +17,11 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-// ==========ここから追加する==========
 //ユーザ編集画面
 Route::get('/users/edit', 'UsersController@edit');
 //ユーザ更新画面
-Route::post('/users/update', 'UsersController@update');
-// ==========ここまで追加する==========
+Route::post('users/update', 'UsersController@update');
+
 
 //ユーザ詳細画面
 Route::get('/users/{user_id}', 'UsersController@show');
