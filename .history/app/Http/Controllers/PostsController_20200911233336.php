@@ -25,7 +25,7 @@ class PostsController extends Controller
             ->get();
 
         // テンプレート「post/index.blade.php」を表示します。
-        return view('post/index', ['posts' => $posts]);
+        return view('post/index');
     }
     public function new()
     {
