@@ -37,9 +37,3 @@ Route::post('/posts', 'PostsController@store');
 // ==========ここまで追加する==========
 //投稿削除処理
 Route::get('/postsdelete/{post_id}', 'PostsController@destroy');
-
-//いいね処理
-Route::get('/posts/{post_id}/likes', 'LikesController@store');
-
-//いいね取消処理
-Route::get('/likes/{like_id}', 'LikesController@destroy');
