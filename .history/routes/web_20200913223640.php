@@ -36,4 +36,4 @@ Route::get('/posts/new', 'PostsController@new')->name('new');
 Route::post('/posts', 'PostsController@store');
 // ==========ここまで追加する==========
 //投稿削除処理
-Route::get('/postsdelete/{post_id}', 'PostsController@destroy');
+Route::ger('/postsdelete/{post_id}', 'PostsController@destroy');
