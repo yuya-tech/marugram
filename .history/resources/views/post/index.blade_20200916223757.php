@@ -63,12 +63,3 @@
                 <input value="{{ $post->id }}" type="hidden" name="post_id" />
                 <input class="form-control comment-input border-0" placeholder="コメント ..." autocomplete="off" type="text" name="comment" />
               </form>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-@endforeach
-@endsection

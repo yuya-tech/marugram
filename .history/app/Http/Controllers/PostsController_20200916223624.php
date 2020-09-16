@@ -52,7 +52,6 @@ class PostsController extends Controller
 
         $post->save();
 
-        // ==========ここからコメントアウトする==========
         //$request->photo->storeAs('public/post_images', $post->id . '.jpg');
 
         // 「/」 ルートにリダイレクト
