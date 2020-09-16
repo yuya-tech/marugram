@@ -25,7 +25,6 @@ Route::get('/home', 'PostsController@index');
 // ユーザ編集画面
 Route::get('/users/edit', 'UsersController@edit');
 
-//ユーザ更新画面
 Route::post('/users/update', 'UsersController@update');
 
 // ユーザ詳細画面
